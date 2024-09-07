@@ -60,7 +60,7 @@ variable "bin_file_name" {
 
 resource "null_resource" "download_file" {
   provisioner "local-exec" {
-    command = "curl -L -o ${var.bin_file_name} https://esc.asderix.com/download/EscCloudFunctionsExample.zip"
+    command = "curl -L -o ${var.bin_file_name} https://github.com/asderix/ESC-GCP-Function-Demo/releases/download/v0.1.0/EscCloudFunctionsExample.zip"
   }
 }
 

@@ -1,5 +1,3 @@
-
-
    _____  _____ _____    _____                       
   / ____|/ ____|  __ \  |  __ \                      
  | |  __| |    | |__) | | |  | | ___ _ __ ___   ___  
@@ -35,6 +33,7 @@ terraform apply
 5. If everthing was successful you can call the service using the given URL at the end of the Terraform output.
 
 **Entity names**
+
 This project also provide a second endpoint for getting the similarities of entity names. Feel free to add a second Cloud Run Function to this entry point: OrganisationNameExplanation.
 
 ```hcl
